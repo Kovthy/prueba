@@ -1,0 +1,77 @@
+/***** HEADER *****/
+
+/* navbar */
+.logo {
+    font-family: 'Balsamiq Sans', cursive;
+    color: rgb(97, 74, 217) !important;
+    font-size: 2.5rem;
+}
+
+header nav ul li a {
+    color: rgb(97, 74, 217) !important;
+    font-weight: 600;
+}
+
+header nav ul li {
+    margin-right: 2rem;
+}
+
+/* header - section */
+h1 {
+    font-size: 4rem;
+}
+
+header section img {
+    width: 100%;
+}
+
+.btn-store {
+    display: flex;
+    justify-content: space-around;
+    border-radius: 7px;
+}
+
+
+/**/
+
+.some-container{
+    position: relative;
+}
+.bgs {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+.bg-right {
+    position: absolute;
+    top: 3vw;
+    right: calc(5vw);
+    width: 40vw;
+    height: 70vh;
+    transform: rotate(45deg);
+    opacity: 0.05;
+    background: rgb(219, 181, 12);
+    border-radius: 400px;
+}
+
+.not {
+    background: rgb(172, 162, 212);
+    border-radius: 5px;
+    padding: 1rem;
+
+    transform: rotate(7deg);
+}
+
+#chats-notifications img {
+    width: 100%;
+}
+
+/* Security Section */
+
+#security-section img {
+    width: 90%;
+}
